@@ -38,7 +38,7 @@ user search criteria. Each of them is provided with a bounding box
 corresponding to the geographical extent of the boreholes in the
 database – not the boreholes themselves.
 
-=> IMAGE 1 HERE
+![Catalogue record with UK on-shore borholes][figure1]
 
 ## Use case level 2: Simple feature view
 
@@ -51,7 +51,7 @@ map showing their symbolised location. The user can then click an
 individual borehole on the map and get some simple summary information
 about that particular borehole.
 
-=> IMAGE 2 HERE
+![Map with some boreholes][figure2]
 
 ## Use case level 3: Advanced feature discovery
 
@@ -67,7 +67,7 @@ boreholes, summary information is displayed – also containing a link to
 or information about how to get access to actual data such as
 geophysical logs, geochemistry, sample descriptions, drill cores etc.
 
-=> IMAGE 3 HERE
+![Borehole record from Danish database][figure3]
 
 ## Use case level 4: Advanced complex feature data access
 
@@ -84,7 +84,7 @@ those flows to be:
 The example below shows a borehole log structured description and a GUI
 build on top of it
 
-=> IMAGE 4 & IMAGE 5 HERE
+![XML description of borehole log][figure4] ![Geological borehole log][figure5]
 
 # Borehole
 
@@ -2521,3 +2521,9 @@ use cases
 \| **Extension Points** \|
 \| **\\&lt;\\&lt;Used>> Use Cases** \|
 \| **Other Requirements** \|
+
+[figure1]: ./figures/IMAGE_1.png
+[figure2]: ./figures/IMAGE_2.gif
+[figure3]: ./figures/IMAGE_3.gif
+[figure4]: ./figures/IMAGE_4.png
+[figure5]: ./figures/IMAGE_5.png
